@@ -1,25 +1,14 @@
-# ![nf-core/transxpress](docs/images/nf-core-transxpress_logo_light.png#gh-light-mode-only) ![nf-core/transxpress](docs/images/nf-core-transxpress_logo_dark.png#gh-dark-mode-only)
-
-[![GitHub Actions CI Status](https://github.com/nf-core/transxpress/workflows/nf-core%20CI/badge.svg)](https://github.com/nf-core/transxpress/actions?query=workflow%3A%22nf-core+CI%22)
-[![GitHub Actions Linting Status](https://github.com/nf-core/transxpress/workflows/nf-core%20linting/badge.svg)](https://github.com/nf-core/transxpress/actions?query=workflow%3A%22nf-core+linting%22)
-[![AWS CI](https://img.shields.io/badge/CI%20tests-full%20size-FF9900?logo=Amazon%20AWS)](https://nf-co.re/transxpress/results)
-[![Cite with Zenodo](http://img.shields.io/badge/DOI-10.5281/zenodo.XXXXXXX-1073c8)](https://doi.org/10.5281/zenodo.XXXXXXX)
-
 [![Nextflow](https://img.shields.io/badge/nextflow%20DSL2-%E2%89%A521.10.3-23aa62.svg)](https://www.nextflow.io/)
-[![run with conda](http://img.shields.io/badge/run%20with-conda-3EB049?logo=anaconda)](https://docs.conda.io/en/latest/)
-[![run with docker](https://img.shields.io/badge/run%20with-docker-0db7ed?logo=docker)](https://www.docker.com/)
-[![run with singularity](https://img.shields.io/badge/run%20with-singularity-1d355c.svg)](https://sylabs.io/docs/)
-[![Launch on Nextflow Tower](https://img.shields.io/badge/Launch%20%F0%9F%9A%80-Nextflow%20Tower-%234256e7)](https://tower.nf/launch?pipeline=https://github.com/nf-core/transxpress)
-
-[![Get help on Slack](http://img.shields.io/badge/slack-nf--core%20%23transxpress-4A154B?logo=slack)](https://nfcore.slack.com/channels/transxpress)
-[![Follow on Twitter](http://img.shields.io/badge/twitter-%40nf__core-1DA1F2?logo=twitter)](https://twitter.com/nf_core)
-[![Watch on YouTube](http://img.shields.io/badge/youtube-nf--core-FF0000?logo=youtube)](https://www.youtube.com/c/nf-core)
 
 ## Introduction
 
 <!-- TODO nf-core: Write a 1-2 sentence summary of what data the pipeline is for and what it does -->
 
-**nf-core/transxpress** is a bioinformatics best-practice analysis pipeline for A nf-core best-practices implementation of the transXpress pipeline.
+**nf-core/transxpress** is a Nextflow best-practice bioinformatics pipeline for eukaryotic de novo transcriptome assembly, expression quantification, and annotation. 
+
+See https://github.com/transXpress/transXpress-nextflow , which preceeded this repository
+
+**This is a hardly developed repository, really more of a placeholder / test. Would recommend using the main (Snakemake based) transXpress pipeline https://github.com/transXpress/transXpress if you want something that actually works**
 
 The pipeline is built using [Nextflow](https://www.nextflow.io), a workflow tool to run tasks across multiple compute infrastructures in a very portable manner. It uses Docker/Singularity containers making installation trivial and results highly reproducible. The [Nextflow DSL2](https://www.nextflow.io/docs/latest/dsl2.html) implementation of this pipeline uses one container per process which makes it much easier to maintain and update software dependencies. Where possible, these processes have been submitted to and installed from [nf-core/modules](https://github.com/nf-core/modules) in order to make them available to all nf-core pipelines, and to everyone within the Nextflow community!
 
